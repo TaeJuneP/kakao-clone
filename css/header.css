@@ -2,6 +2,9 @@
   background-color: #523737;
   color: white;
   padding: 5px 10px 15px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .top-header .header__top,
 .top-header .header__bottom {
@@ -26,4 +29,7 @@
 }
 .top-header .header__column:nth-child(2) {
   text-align: center;
+}
+.top-header .header__number {
+  color: yellow;
 }
